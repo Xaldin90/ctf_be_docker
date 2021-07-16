@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 RUN apt-get update && apt-get install -y openssh-server apache2 git libapache2-mod-php7.0
 # SSH stuff
